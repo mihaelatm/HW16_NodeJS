@@ -63,8 +63,8 @@
 
 // ========= Task_6 =========
 
-function logMessage(message: string): void {
-  console.log(message);
-}
+// function logMessage(message: string): void {
+//   console.log(message);
+// }
 
-logMessage("Hello, TypeScript!");
+// logMessage("Hello, TypeScript!");
