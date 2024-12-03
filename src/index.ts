@@ -7,20 +7,29 @@
 
 // ========= Task_2 =========
 
-interface Person {
-  name: string;
-  age: number;
-  city: string;
+// interface Person {
+//   name: string;
+//   age: number;
+//   city: string;
+// }
+
+// function printPersonInfo(person: Person): void {
+//   console.log(`Name: ${person.name}, age: ${person.age}, city: ${person.city}`);
+// }
+
+// const person: Person = {
+//   name: "John",
+//   age: 26,
+//   city: "London",
+// };
+
+// printPersonInfo(person);
+
+// ========= Task_3 =========
+
+function squareNumber(a: number): number {
+  return a * a;
 }
 
-function printPersonInfo(person: Person): void {
-  console.log(`Name: ${person.name}, age: ${person.age}, city: ${person.city}`);
-}
-
-const person: Person = {
-  name: "John",
-  age: 26,
-  city: "London",
-};
-
-printPersonInfo(person);
+const result = squareNumber(7);
+console.log(result);
