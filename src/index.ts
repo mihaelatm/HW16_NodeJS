@@ -36,9 +36,27 @@
 
 // ========= Task_4 =========
 
-function isEven(num: number): boolean {
-  return num % 2 === 0;
+// function isEven(num: number): boolean {
+//   return num % 2 === 0;
+// }
+
+// console.log(isEven(8));
+// console.log(isEven(11));
+
+// ========= Task_5 =========
+
+interface Student {
+  name: string;
+  grade: number;
 }
 
-console.log(isEven(8));
-console.log(isEven(11));
+function printStudentInfo(student: Student): void {
+  console.log(`Student: ${student.name}, Note: ${student.grade}`);
+}
+
+const student: Student = {
+  name: "Alice",
+  grade: 10,
+};
+
+printStudentInfo(student);
