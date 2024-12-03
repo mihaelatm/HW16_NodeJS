@@ -27,9 +27,18 @@
 
 // ========= Task_3 =========
 
-function squareNumber(a: number): number {
-  return a * a;
+// function squareNumber(a: number): number {
+//   return a * a;
+// }
+
+// const result = squareNumber(7);
+// console.log(result);
+
+// ========= Task_4 =========
+
+function isEven(num: number): boolean {
+  return num % 2 === 0;
 }
 
-const result = squareNumber(7);
-console.log(result);
+console.log(isEven(8));
+console.log(isEven(11));
