@@ -45,18 +45,26 @@
 
 // ========= Task_5 =========
 
-interface Student {
-  name: string;
-  grade: number;
+// interface Student {
+//   name: string;
+//   grade: number;
+// }
+
+// function printStudentInfo(student: Student): void {
+//   console.log(`Student: ${student.name}, Note: ${student.grade}`);
+// }
+
+// const student: Student = {
+//   name: "Alice",
+//   grade: 10,
+// };
+
+// printStudentInfo(student);
+
+// ========= Task_6 =========
+
+function logMessage(message: string): void {
+  console.log(message);
 }
 
-function printStudentInfo(student: Student): void {
-  console.log(`Student: ${student.name}, Note: ${student.grade}`);
-}
-
-const student: Student = {
-  name: "Alice",
-  grade: 10,
-};
-
-printStudentInfo(student);
+logMessage("Hello, TypeScript!");
